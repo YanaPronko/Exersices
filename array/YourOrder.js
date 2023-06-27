@@ -14,4 +14,10 @@ function order(words) {
   return array.sort(sortFN).join(" ");
 }
 
+// Более короткий вариант
+// function order(words){
+
+//   return words.split(' ').sort(function(a, b){
+//       return a.match(/\d/) - b.match(/\d/);
+//    }).join(' ');
 order("4of Fo1r pe6ople g3ood th5e the2");
