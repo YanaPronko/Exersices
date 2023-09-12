@@ -20,4 +20,14 @@ Number.prototype.minus = function (num) {
 
 console.log((2).plus(3).minus(1));
 
-// 3)
+// 3) Дана функция, она принимает в качестве аргументов строки '*', '1', 'b', '1c', реализуйте ее так, что бы она вернула строку '1*b*1c'
+
+const transform = (del, ...strs) => {
+  return strs.join(del);
+}
+// ИЛИ
+const transformStr = (del, arg1, arg2, arg3) => {
+  return [arg1, arg2, arg3].join(del);
+}
+console.log(transformStr("*", "1", "b", "1c"));
+

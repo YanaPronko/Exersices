@@ -1,0 +1,12 @@
+.container {
+  width: 600px;
+  height: 200px;
+  border: 1px solid green;
+}
+
+.box {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  outline: 1px solid red;
+}
